@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <title>Login form</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function displayAlert(){alert("You Have Successfully Login");}  
+    </script>
+</head>
+<body>
+    <div class="container-for-login">
+    <form action="#" method="post">
+        <img src="chatbook.png" alt="">
+        <h1>LOGIN INTO YOUR ACCOUNT!</h1>
+        <label for="user">Username:</label><br>
+        <input type="text"name="user" id="user" placeholder="Enter Username..."><br>
+        <label for="pass">Password:</label><br>
+        <input type="password"name="pass" id="pass" placeholder="Enter Password...">
+        <br>
+        <input type="checkbox" name="rem" id="rem" >
+        <label for="rem"> Remember me</label>
+        <h5>Alreay have an account? <a href=""style="color: rgba(21, 141, 238, 0.767);">Register here.</a></h5>
+        <button onclick="displayAlert"style="background-color:blue:">Login</button>
+        <button type="cancel">Cancel</button>
+        <button type="reset">Reset</button>
+    </form>
+    </div>
+    
+</body>
+</html>
